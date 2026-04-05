@@ -1,0 +1,131 @@
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.heading h5{
+    color: var(--color-light);
+    font-size: 18px;
+    
+}
+
+.heading h1{
+    font-size: 35px;
+    color:var(--color-primary)
+}
+
+.projects{
+    /* width:100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+.projects .projectBox{
+    background-color: var(--color-bg-veriant);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.projectBox .img{
+    width: 100%;
+    height: 200px
+}
+
+.projectBox .img img{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.projects .projectBox h3{
+    font-size: 18px;
+    color:var(--main-color);
+    margin: 15px 0 20px 0;
+}
+.projects .projectBox .btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.projects .projectBox .btn button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    height: 35px;
+    
+}
+
+.projects .projectBox .btn .gitHub{
+     border: 1px solid var(--color-primary);
+     color: var(--color-light)
+}
+.projects .projectBox .btn .gitHub i{
+    font-size: 20px;
+    color:var(--color-primary)
+}
+.projects .projectBox .btn .demo{
+     background-color: var(--color-primary);
+     box-shadow: inset 0 0 10px 2px var(--color-bg-veriant);
+     color: #111
+}
+.projects .projectBox .btn .demo i{
+    color:var(--color-bg-veriant);
+        font-size: 17px;
+
+}
+
+
+@media (max-width:768px) {
+    .projects .projectBox{
+        
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .projects .projectBox h3{
+        font-size: 16px;
+        margin: 15px 0 20px 0;
+    }
+    .projects .projectBox .btn button{
+    
+        padding: 5px 10px;
+        font-size: 14px;
+    
+    
+    }
+}
+@media (max-width:1080px) {
+    .heading{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .heading h5{
+        
+        font-size: 16px;
+        
+    }
+
+    .heading h1{
+        font-size: 25px;
+        
+    }
+}
+
+
+
+
+

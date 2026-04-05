@@ -1,0 +1,10 @@
+.darkIcon{
+  color:var(--color-primary);
+  cursor: pointer;
+  
+}
+.lightIcon{
+  cursor: pointer;
+  
+
+}
