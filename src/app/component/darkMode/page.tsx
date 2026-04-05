@@ -15,7 +15,7 @@ export default function Darkmode() {
 
     useEffect(() => {
         document.body.classList.toggle('dark-mode', darkMode);
-        localStorage.setItem('darkMode', darkMode);
+        localStorage.setItem('darkMode', darkMode.toString());
     }, [darkMode]);
 
     return (
