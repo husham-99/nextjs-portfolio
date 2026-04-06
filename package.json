@@ -15,7 +15,11 @@
     "bcryptjs": "^3.0.3",
     "framer-motion": "^12.38.0",
     "jsonwebtoken": "^9.0.2",
+<<<<<<< HEAD
     "next": "^16.2.2",
+=======
+    "next": "16.0.10",
+>>>>>>> 915c440c71fa9d88876932b0f6383cec096a71b2
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-icons": "^5.5.0",
