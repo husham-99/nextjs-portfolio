@@ -49,11 +49,9 @@ html{
 }
 .dark-mode{
   background-color: #0d0d0d;
-  color:#fff;
+    color:#fff;
 }
-module.projectBox{
-  background: yellow !important
-}
+
 
 
 
