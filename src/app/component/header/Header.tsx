@@ -5,7 +5,8 @@ import module from './header.module.css'
 import { useState } from "react"
 // import { DiJqueryLogo } from "react-icons/di";
 import { TbBrandNextjs } from 'react-icons/tb'
-import { FaBars } from "react-icons/fa";
+// import { FaBars } from "react-icons/fa6";
+import { HiMiniBars3 } from "react-icons/hi2";
 import { IoClose } from "react-icons/io5";
 import Darkmode from '../darkMode/page'
 import { FaHome } from "react-icons/fa";
@@ -32,7 +33,7 @@ const Header = () => {
                                 <Darkmode />
                             </div>
                             <div onClick={() => { setToggle(prev => !prev) }}>
-                                {toggle ? <IoClose /> : <FaBars />}
+                                {toggle ? <IoClose /> : <HiMiniBars3 />}
                             </div>
                         </div>
 

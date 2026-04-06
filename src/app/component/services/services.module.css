@@ -29,7 +29,7 @@
     backdrop-filter: blur(10px);
     width: 350px;
     /* min-width:300px; */
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     flex-shrink: 0;
     display: flex;
@@ -94,6 +94,6 @@
     }
     .services .serviceBox p{
         font-size: 14px;
-        text-align: justify;
+        /* letter-spacing: 3; */
     }
 }

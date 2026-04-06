@@ -92,8 +92,8 @@
     }
 
     .main .pic{
-        width: 40px;
-        height: 40px;
+        width: 43px;
+        height: 43px;
         background-color: var(--color-bg-veriant);
         padding: 3px;
         
@@ -105,11 +105,11 @@
 
     .main .info h3{
         color: var(--main-color);
-        font-size:12px ;
+        font-size:14px ;
     }
 
     .main .info p{
         color: var(--color-light);
-        font-size: 9px;
+        font-size: 11px;
     }
 }
