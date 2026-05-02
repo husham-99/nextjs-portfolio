@@ -67,69 +67,64 @@ let skillsData = [
         description: 'User Interface',
         img: tailwind
     },
+    
     {
         id: '8',
-        title: 'Figma',
-        description: 'Design Tool',
-        img: figma
-    },
-    {
-        id: '9',
         title: 'Next.Js',
         description: 'FrameWork',
         img: nextjs
     },
     {
-        id: '10',
+        id: '9',
         title: 'Axios',
         description: 'HTTP Client',
         img: axios
     },
     {
-        id: '11',
+        id: '10',
         title: 'TypeScript',
         description: 'FrameWork',
         img: typescript
     },
     {
-        id: '12',
+        id: '11',
         title: 'GitHub',
         description: 'V.Controller',
         img: github
     },
     {
-        id: '13',
+        id: '12',
         title: 'Git',
         description: 'V.Controller',
         img: git
     },
     {
-        id: '14',
+        id: '13',
         title: 'Postman',
         description: 'Api Testing',
         img: postman
     },
     {
-        id: '15',
+        id: '14',
         title: 'API',
         description: 'HTTP Requests',
         img: api
     },
     {
-        id: '16',
+        id: '15',
         title: 'Node.Js',
         description: 'Web Server',
         img: nodejs
     },
     {
-        id: '17',
+        id: '16',
         title: 'Express.Js',
         description: 'FrameWork',
         img: expressjs
     },
 
     {
-        id: '18',
+        id: '17',
         title: 'Mongodb',
         description: 'Data-Base',
         img: mongodb

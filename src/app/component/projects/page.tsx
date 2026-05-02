@@ -11,7 +11,7 @@ import memoryGame from '../../assets/memorygame.jpeg'
 import adthan from '../../assets/adhan.jpeg'
 import quisApp from '../../assets/quis-app.jpeg'
 import building from '../../assets/الفجر الساطع.jpeg'
-import silverDesign from '../../assets/silver-design.jpeg'
+import developmentHouse from '../../assets/development-house.jpeg'
 import wether from '../../assets/weatherhub.jpeg'
 
 
@@ -83,10 +83,10 @@ const porjectsData = [
 
     {
         id: 9,
-        img: silverDesign,
-        title: "Silver Design",
-        github: 'https://github.com/husham-99/s.design',
-        demo: 'https://husham-99.github.io/s.design'
+        img: developmentHouse,
+        title: "Development-house",
+        github: 'https://github.com/husham-99/development-house',
+        demo: 'https://development-house.vercel.app/'
 
     },
     {
