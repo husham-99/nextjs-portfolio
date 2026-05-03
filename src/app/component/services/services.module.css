@@ -1,99 +1,89 @@
-
-.heading{
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 100px;
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
 }
 
-.heading h5{
-    color: var(--color-light);
-    font-size: 18px;
-    
+.heading h5 {
+  color: var(--color-light);
+  font-size: 18px;
 }
 
-.heading h1{
-    font-size: 35px;
-    color:var(--color-primary)
+.heading h1 {
+  font-size: 35px;
+  color: var(--color-primary);
 }
 
-.services{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.services .serviceBox{
-    background-color: rgba(0  0, 0, 0.2);
-    backdrop-filter: blur(10px);
-    width: 350px;
-    /* min-width:300px; */
-    padding: 15px;
-    border-radius: 10px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    border: 1px solid var(--color-bg-veriant);
-    transition: all 0.3s ease-in-out;
-
+.services .serviceBox {
+  background-color: rgba(0 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  width: 350px;
+  height: 200px;
+  /* min-width:300px; */
+  padding: 15px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid var(--color-bg-veriant);
+  transition: all 0.3s ease-in-out;
 }
 
-.services .serviceBox:active{
-    scale:1.1;
-    box-shadow: 0 0 7px 5px black;
+.services .serviceBox:active {
+  scale: 1.1;
+  box-shadow: 0 0 7px 5px black;
 }
-.services .serviceBox .icon{
-    font-size: 35px;
-    color:violet
+.services .serviceBox .icon {
+  font-size: 35px;
+  color: violet;
 }
-.services .serviceBox h3{
-    color:var(--color-primary);
-    font-size: 21px;
-    font-weight: bold;
+.services .serviceBox h3 {
+  color: var(--color-primary);
+  font-size: 21px;
+  font-weight: bold;
 }
-.services .serviceBox p{
-    color:var(--color-light)
+.services .serviceBox p {
+  color: var(--color-light);
 }
 
+@media (max-width: 767px) {
+  .services {
+    gap: 20px;
+  }
+  .services .serviceBox {
+    width: 100%;
+    height: max-content;
+  }
+  .heading {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
 
+  .heading h5 {
+    font-size: 16px;
+  }
 
-
-@media (max-width:767px) {
-    .services{
-        gap:20px
-    }
-    .services .serviceBox{
-
-        width: 100%
-    }
-    .heading{
-        margin-top: 60px;
-        margin-bottom: 20px;
-    }
-
-    .heading h5{
-        
-        font-size: 16px;
-        
-    }
-
-    .heading h1{
-        font-size: 25px;
-        
-    }
-    .services .serviceBox i{
-        font-size: 30px;
-        
-}
-    .services .serviceBox h3{
-        
-        font-size: 16px;
-        
-    }
-    .services .serviceBox p{
-        font-size: 14px;
-        /* letter-spacing: 3; */
-    }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .services .serviceBox i {
+    font-size: 30px;
+  }
+  .services .serviceBox h3 {
+    font-size: 16px;
+  }
+  .services .serviceBox p {
+    font-size: 14px;
+    /* letter-spacing: 3; */
+  }
 }
